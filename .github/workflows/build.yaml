@@ -26,5 +26,5 @@ jobs:
           context: ./
           push: true
           tags: |
-                amiruekanayake/docker-automation:${{ env.SHORT_SHA }}
-                amiruekanayake/docker-automation:latest
+                amiruekanayake/docker-automations:${{ env.SHORT_SHA }}
+                amiruekanayake/docker-automations:latest
